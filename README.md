@@ -26,7 +26,7 @@ Once you've included the plugin, create your html structure similar to the follo
 
 and initialize as you would any jQuery plugin:
 
-'''javascript
+```javascript
 $(function() {
     $('#hero').slideBack();
 }
