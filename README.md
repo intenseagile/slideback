@@ -19,13 +19,15 @@ Pull down the .js file, reference it in your html
 
 Once you've included the plugin, create your html structure similar to the following:
 
-```<div id="hero" data-images=''>
+```html
+<div id="hero" data-images=''>
 </div>
 ```
 
 and initialize as you would any jQuery plugin:
 
-'''$(function() {
+'''javascript
+$(function() {
     $('#hero').slideBack();
 }
 ```
